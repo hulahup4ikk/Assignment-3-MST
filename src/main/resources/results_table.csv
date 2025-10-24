@@ -1,0 +1,4 @@
+Graph_ID,Vertices,Edges,Prim_Cost,Kruskal_Cost,Prim_Time_ms,Kruskal_Time_ms,Prim_Ops,Kruskal_Ops,Faster
+1,5,6,9,9,0.3922,0.6162,13,32,Prim
+2,10,14,30,30,1.0307,1.6803,51,89,Prim
+3,25,27,112,112,1.4629,1.8839,114,201,Prim
