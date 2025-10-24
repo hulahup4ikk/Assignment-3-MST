@@ -1,69 +1,119 @@
 {
   "results": [
     {
-      "graph_id": 1,
-      "num_vertices": 5,
-      "num_edges": 6,
+      "graph_id": 2,
+      "num_vertices": 10,
+      "num_edges": 14,
       "prim": {
-        "total_cost": 9,
-        "execution_time_ms": 0.3922,
+        "total_cost": 30,
+        "execution_time_ms": 1.0307,
         "operations": {
-          "comparisons": 9,
-          "edge_selections": 4,
-          "total_operations": 13
+          "comparisons": 42,
+          "edge_selections": 9,
+          "total_operations": 51
         },
         "mst_edges": [
           {
             "from": "A",
-            "to": "B",
+            "to": "D",
             "weight": 2
           },
           {
-            "from": "B",
-            "to": "C",
-            "weight": 1
-          },
-          {
-            "from": "B",
-            "to": "D",
-            "weight": 4
+            "from": "A",
+            "to": "B",
+            "weight": 3
           },
           {
             "from": "D",
-            "to": "E",
+            "to": "G",
+            "weight": 4
+          },
+          {
+            "from": "B",
+            "to": "F",
+            "weight": 4
+          },
+          {
+            "from": "F",
+            "to": "I",
+            "weight": 3
+          },
+          {
+            "from": "I",
+            "to": "J",
+            "weight": 1
+          },
+          {
+            "from": "H",
+            "to": "I",
             "weight": 2
+          },
+          {
+            "from": "C",
+            "to": "F",
+            "weight": 5
+          },
+          {
+            "from": "B",
+            "to": "E",
+            "weight": 6
           }
         ]
       },
       "kruskal": {
-        "total_cost": 9,
-        "execution_time_ms": 0.6162,
+        "total_cost": 30,
+        "execution_time_ms": 1.6803,
         "operations": {
-          "comparisons": 16,
-          "find_operations": 12,
-          "union_operations": 4,
-          "total_operations": 32
+          "comparisons": 52,
+          "find_operations": 28,
+          "union_operations": 9,
+          "total_operations": 89
         },
         "mst_edges": [
           {
-            "from": "B",
-            "to": "C",
+            "from": "I",
+            "to": "J",
             "weight": 1
           },
           {
             "from": "A",
-            "to": "B",
+            "to": "D",
             "weight": 2
+          },
+          {
+            "from": "H",
+            "to": "I",
+            "weight": 2
+          },
+          {
+            "from": "A",
+            "to": "B",
+            "weight": 3
+          },
+          {
+            "from": "F",
+            "to": "I",
+            "weight": 3
           },
           {
             "from": "D",
-            "to": "E",
-            "weight": 2
+            "to": "G",
+            "weight": 4
           },
           {
             "from": "B",
-            "to": "D",
+            "to": "F",
             "weight": 4
+          },
+          {
+            "from": "C",
+            "to": "F",
+            "weight": 5
+          },
+          {
+            "from": "B",
+            "to": "E",
+            "weight": 6
           }
         ]
       }
